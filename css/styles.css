@@ -1,0 +1,173 @@
+body {
+  margin: auto;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+hr{
+  color: #EAF6F6;
+  border-style: dotted none none none; /*border is a square. By specifying d n n n youre saying dot only the top and discard the right, left, and bottom.*/
+  border-width: 7px; /*How big the dots*/
+  width: 5%;/*The width of the screen it should take up. Or how many dots.*/
+  margin: 100px auto 100px auto;
+
+}
+/***************CLASS SELECTORS ********************/
+.Top {
+  background-color: #edf7fa;
+  position: relative;
+  padding-top: 100px;
+
+}
+
+.pro {
+  text-decoration: underline;
+}
+.pro:hover{
+  color: #ffffff;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.profile-picture{
+  height: 200px;
+  margin-top: 100px;
+}
+.programmer{
+  font-weight: normal;
+  line-height: 2em;
+}
+
+.skill-row{
+  width:50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.team-work{
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+  margin:100px auto 100px auto;
+
+
+
+}
+.team-work-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+
+}
+.computer{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.working-out{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+  margin-top: 50px
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: .75rem;
+  padding:20px 10px;
+}
+.profile-text{
+  width: 35%;
+  margin:auto;
+  text-align: left;
+  line-height: 2;
+}
+.contact-me-text{
+  margin: 40px auto 60px;
+  width: 40%;
+}
+.btn {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #FCF0F8;
+  font-size: 14px;
+  text-shadow: 1px 1px 0 #7CACDE;
+  box-shadow: 1px 1px 1px #F9F7FA;
+  padding: 10px 25px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  border: 1px solid #3866A3;
+  background: #63B8EE;
+  background: linear-gradient(top,  #11CDD4,  #11999E);
+  background: -ms-linear-gradient(top,  #11CDD4,  #11999E);
+  background: -webkit-gradient(linear, left top, left bottom, from(#11CDD4), to(#11999E));
+  background: -moz-linear-gradient(top,  #11CDD4,  #11999E);
+  background: -webkit-linear-gradient( center top, #11CDD4 5%, #11999E 100% );
+  background: -o-linear-gradient( center top, #11CDD4 5%, #11999E 100% );
+}
+.btn:hover {
+  color: #F7F5F6;
+  background: #468CCF;
+  background: linear-gradient(top,  #30E3CB,  #2BC4AD);
+  background: -ms-linear-gradient(top,  #30E3CB,  #2BC4AD);
+  background: -webkit-gradient(linear, left top, left bottom, from(#30E3CB), to(#2BC4AD));
+  background: -moz-linear-gradient(top,  #30E3CB,  #2BC4AD);
+  background: -webkit-linear-gradient( center top, #30E3CB 5%, #2BC4AD 100% );
+  background: -o-linear-gradient( center top, #30E3CB 5%, #2BC4AD 100% );
+}
+.footer-link{
+    margin:10px 10px;
+    text-decoration: none;
+}
+.footer-link:hover{
+  color: #EAF6F6;
+}
+.credit{
+  text-decoration: none;
+
+}
+.credit:hover{
+color: #ffffff;
+}
+.credit-2{
+  text-decoration: none;
+}
+.credit-2:hover{
+color: #ffffff;
+}
